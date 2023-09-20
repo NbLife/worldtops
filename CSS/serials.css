@@ -1,0 +1,83 @@
+.main2{
+	width: 950px;
+	margin: 60px auto 0 auto;
+}
+iframe{
+	display: block;
+	margin: 30px auto;
+	width: 800px;
+	height: 535px;
+	border-radius: 15px;
+}
+/*h2{
+	text-transform: normal!important;/*Почему-то не работает даже импортант из-за другого файла CSS*/
+/*}*/
+.header{
+	text-align: center;
+	border: 2px solid #F0CE5F;
+	padding: 15px;
+	border-radius: 27px;
+}
+.header{
+	border: 2px solid #F08948;
+}
+.texta{
+	text-decoration: none;
+	background: linear-gradient(to right, #F06A17, #F4D85B, #F06A17); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+	transition: 1s;
+}
+.texta:hover{
+	text-decoration: underline;
+	text-decoration-color: white;
+	font-weight: 800;
+}
+.reitung{
+	
+	background: linear-gradient(to left, #F4DC6F, #F06A17); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+}
+.reitung2{
+	background: linear-gradient(to right, #943EFF, #008EFF); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+}
+
+.texta2{
+	text-decoration: none;
+	background: linear-gradient(to left, #943EFF, #008EFF); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+	transition: 1s;
+}
+.texta2:hover{
+	text-decoration: underline;
+	text-decoration-color: white;
+	font-weight: 800;
+}
+
+
+.active{
+	display: none;
+}
+.button{
+	color: #f00;
+	transition: 0.3s;
+	margin: 7px auto 0;
+	width: 15%;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.button:hover{
+	transform: scale(1.25) translateX(2px);
+	/*font-size: 19.5px;*/
+	text-decoration: underline;
+	text-decoration-color: #ff0;
+	/*border-bottom: 2px solid #ff0;*/
+}
